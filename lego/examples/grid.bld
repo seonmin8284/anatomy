@@ -1,0 +1,9 @@
+title: Grid test
+# part   colour        x    y    z       x, y in studs (half-stud grid); z in plates
+3958     light-bluish  0    0    0       # 6x6 plate on the floor, 1 plate high
+3001     red           0    0    1       # 2x4 brick on it: plates 1 to 4 (a brick is 3 plates)
+3001     blue          4    0    1  r90  # the same brick turned a quarter
+3794b    yellow        0    2    1       # jumper plate 1x2: one stud, centred between two
+3062b    white         0.5  2    2       # round brick on the jumper: half a stud over
+3023     green         0    0    4       # 1x2 plate on top of the red brick
+3024     black         2.1  1    4.4     # deliberately off the grid; snapped to 2, 1, 4
