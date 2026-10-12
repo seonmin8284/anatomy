@@ -1,0 +1,11 @@
+title: Two-stage reduction
+# 8T into 24T twice: 3:1, then 3:1 again
+motor pf-m
+axle A 0 0
+axle B 2 0             # 8 + 24 = 32 teeth: 16 mm = 2 studs
+axle C 4 0
+gear A 8  at 0
+gear B 24 at 0
+gear B 8  at 1
+gear C 24 at 1
+output C

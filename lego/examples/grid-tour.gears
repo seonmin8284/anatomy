@@ -1,0 +1,15 @@
+title: Grid tour
+# One train that uses all three ways LEGO's grids let gears meet
+motor pf-l
+axle A 0   0
+axle B 2.5 0           # 16 + 24 = 20 mm = 2.5 studs: the half-stud grid
+axle C 2.5 5           # 16 over 16 = 16 mm = 5 plates straight up
+axle D 4   10          # 20 + 20 = 20 mm on the diagonal: 12 mm across, 16 mm up
+gear A 16 at 0
+gear B 24 at 0
+gear B 16 at 1
+gear C 16 at 1
+gear C 20 at 2
+gear D 20 at 2
+output D
+wheel D 81.6           # 81.6 x 15 tyre
